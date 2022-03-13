@@ -1,0 +1,30 @@
+.expand-temp{
+    width: 100px;
+
+}
+
+.expand-temp button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    margin-left: 10px;
+    box-shadow: 1px 0px 1px rgb(190, 190, 190);
+    border: none;
+}
+
+.temp-menu{
+    margin-left: 10px;
+    width: 100px;
+    background-color: white;
+    height: 0%;
+    overflow: hidden;
+    transition: 400ms;
+    box-shadow: 1px 1px 1px rgb(190, 190, 190);
+}
+
+#t{
+    width: 100px;
+    background-color: white;
+    height: 0%;
+    overflow: hidden;
+}

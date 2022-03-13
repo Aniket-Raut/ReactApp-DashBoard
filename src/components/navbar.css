@@ -1,0 +1,60 @@
+.navbar-cnt{
+    background-color: #212121;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    
+}
+
+.nv-logo{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    /* padding: 10px; */
+    /* margin-left: 15px; */
+    flex-grow: 1 1;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: large;
+}
+.nv-logo::before{
+    content: url("https://img.icons8.com/ios-glyphs/30/ffffff/home.png");
+    vertical-align: middle;
+    padding: 3px;
+}
+.nv-logo:hover{
+    background-color: white;
+    color: #212121;
+    font-weight: 300;
+    /* content: url("https://img.icons8.com/ios-glyphs/30/2266ee/home.png"); */
+}
+
+
+.nv-space{
+    flex-grow: 1;
+}
+
+.nv-right-cnt{
+    padding: 10px;
+    margin-right: 15px;
+    flex-grow: auto;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.nv-bell{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.nv-prof{
+    border: white 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+}

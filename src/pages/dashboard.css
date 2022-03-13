@@ -1,0 +1,23 @@
+.main-cnt{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-basis: auto;
+    flex-flow: row;
+    flex: 1;
+}
+
+.col1{
+    flex-grow: 1 1;
+    /* border: black 2px solid; */
+}
+
+.col2{
+    display: flex;
+    flex-grow: 1;
+    flex: 1;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-basis: auto;
+    
+}

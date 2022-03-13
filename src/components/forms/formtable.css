@@ -1,0 +1,95 @@
+.form-table-main-page{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+.form-table-bottom-console button{
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #212121;
+    color: white;
+}
+
+.form-table-f2{
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    margin-left: 15px;
+}
+.form-table-f1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.form-table-f3{
+    margin-right: 10px;
+}
+
+.labels-col{
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    color: aliceblue;
+}
+.form-table-data{
+    height: inherit;
+    overflow-y: auto;
+    max-height: 550px;
+    scroll-behavior: smooth;
+}
+
+.form-table-data::-webkit-scrollbar {
+    display: none;
+    /* width: 0;
+    background: transparent; */
+}
+
+.form-table-cnt{
+    /* border: #212121 1px solid; */
+    margin-left: 10px;
+    height: 100%;
+    background-color: #e6e4e4;
+}
+
+.form-table-card{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    align-items: center;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.form-table-card-field{
+    margin: 3px;
+    
+}
+
+.form-table-card-field-name{
+    flex: 1;
+    justify-content: start;
+    display: flex;
+    margin-left: 10px;
+}
+
+.form-table-card-editbtn{
+    border: none;
+    margin-right: 10px;
+    background-color: #212121;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 200;
+    cursor: pointer;
+}

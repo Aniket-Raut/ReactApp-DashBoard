@@ -1,0 +1,119 @@
+.card-2{
+    background-color: rgb(56, 56, 56);
+    width: 240px;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    color: aliceblue;
+    font-family: sans-serif;
+    border-radius: 3px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 6px rgb(223, 222, 222) ;
+    /* overflow: hidden; */
+}
+
+/* -------------------sub menu------------------------- */
+.cd-submenu1{
+    align-items: center;
+    background-color: #7e7e7e;
+    overflow: hidden;
+    height: fit-content;
+    transition: 400ms linear;
+
+}
+
+.cd-submenu2{
+    display: block;
+    align-items: center;
+    background-color: #7e7e7e;
+    overflow: hidden;
+    height: 0;
+
+}
+
+.cd-submenu3{
+    display: block;
+    align-items: center;
+    background-color: #7e7e7e;
+    overflow: hidden;
+    height: 0;
+
+}
+
+.cd-item{
+    width:220px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cd-item:active{
+    width:220px;
+    padding: 10px;
+    background-color: #212121;
+}
+
+.cd-item:hover{
+    background-color: white;
+    color: #212121;
+    width:220px;
+    padding: 10px;
+}
+
+/* -------------------sub menu------------------------- */
+
+
+
+/*--------------------outmenu items--------------------*/
+.i1{
+    width:220px;
+    padding: 10px;
+}
+
+.i1:before{
+    content: url("https://img.icons8.com/ios-glyphs/20/ffffff/planner.png");
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.i1:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+
+.i2{
+    width:220px;
+    padding: 10px;
+}
+
+.i2:before{
+    content: url("https://img.icons8.com/ios-glyphs/20/ffffff/planner.png");
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.i2:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+
+.i3{
+    width:220px;
+    padding: 10px;
+}
+
+.i3:before{
+    content: url("https://img.icons8.com/ios-glyphs/20/ffffff/planner.png");
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.i3:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+
+/*--------------------outmenu items--------------------*/

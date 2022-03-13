@@ -1,0 +1,86 @@
+.ip1-main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 10px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 6px rgb(223, 222, 222) ;
+}
+
+.ip1-first-cnt{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    /* border: #212121 2px solid; */
+    width: 100%;
+    max-width: 500px;
+}
+
+.ip1-fname{
+    margin-left: 4px;
+}
+
+.ip1-cl1{
+    font-size: 14px;
+    font-weight: 500;
+    flex: 1; 
+    flex-direction: column;
+    display: flex;
+    margin: 5px;
+    align-items: flex-start;
+}
+
+.ip1-cl1 input{
+    margin-left: 4px;
+    background-color: white;
+    border: rgb(173, 173, 173) 1px solid;
+    padding: 4px;
+    border-radius: 3px;
+    outline: none;
+    width: 90%;
+}
+
+.ip1-sel{
+    background-color: rgb(230, 230, 230);
+    border: none;
+    padding: 4px;
+    outline: none;
+    width: 84%;
+    border-radius: 3px;
+}
+
+.ip1-last-cnt{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 500px;
+    /* border: #212121 2px solid; */
+}
+
+.f1-btn-cu{
+    margin-top: 20px;
+    color: white;
+    border-radius: 3px;
+    flex: 1;
+    width: 100%;
+}
+
+.f1-btn-cu button{
+    flex: 1;
+    font-family: 'Roboto';
+    padding: 10px;
+    background: #212121;
+    border:  none;
+    color: white;
+    border-radius: 3px;
+    width: 50%;
+    max-width: 460px;
+    cursor: pointer;
+}
+/* .ip1-super{
+    display: flex;
+    align-items: center;
+} */
